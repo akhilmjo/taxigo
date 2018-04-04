@@ -1,0 +1,14 @@
+password:GqGMKV25qXJG
+
+akhilmjoy8@taxigo-1:~$ sudo su
+root@taxigo-1:/home/akhilmjoy8# /etc/init.d/apache2 restart
+[ ok ] Restarting apache2 (via systemctl): apache2.service.
+root@taxigo-1:/home/akhilmjoy8# cd /
+root@taxigo-1:/# ls
+bin  boot  dev  etc  home  initrd.img  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var  vmlinuz
+root@taxigo-1:/# cd var
+root@taxigo-1:/var# cd www
+root@taxigo-1:/var/www# ls
+html
+root@taxigo-1:/var/www# cd html
+root@taxigo-1:/var/www/html# cat index.html
